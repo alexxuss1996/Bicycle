@@ -1,0 +1,48 @@
+body {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	min-width: 320px;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+.main-head {
+	padding: 0 0 2% 0;
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 750px;
+}
+
+.main-head .nav {
+	padding: 1% 0;
+	background-color: transparent;
+}
+
+.main-head ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-head ul li {
+	margin: 1.6% 4%;
+	list-style: none;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	transition: color .3s ease;
+}
+
+.main-head ul li:hover a {
+	color: #111;
+}
+
+.main-head ul li a {
+	color: #4d4959;
+	text-transform: uppercase;
+	text-decoration: none;
+}
