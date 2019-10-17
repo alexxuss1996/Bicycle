@@ -33,6 +33,10 @@ p {
 	border: 1px solid #fff;
 }
 
+.btn-transparent {
+	background-color: transparent;
+}
+
 .heading {
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -416,5 +420,54 @@ p {
 
 .s-dark .btn:hover {
 	color: #848789;
+}
 
+.s-contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.s-contact img,
+.s-contact p {
+	font-size: 24px;
+	margin: 14px 0;
+	display: inline-block;
+}
+
+.contact-form {
+	position: relative;
+}
+
+.contact-form .form-btn,
+.contact-form #email {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+}
+
+.contact-form #email {
+	text-indent: 10px;
+	line-height: 20px;
+	padding: 19px 10px;
+	border: 1px solid #d3d7d9;
+	width: 290px;
+}
+
+.contact-form input[type="email"]::placeholder {
+	font-size: 18px;
+	font-style: italic;
+	color: rgba(146, 146, 146, 0.5);
+}
+
+.contact-form .form-btn {
+	cursor: pointer;
+	background-color: #64c29e;
+	border: 1px solid #64c29e;
+	transition: all 350ms ease;
+}
+
+.contact-form .form-btn:hover {
+	background-color: #458b70;
 }
