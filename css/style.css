@@ -49,6 +49,15 @@ p {
 	text-align: left;
 }
 
+.text-light {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
 .main-head {
 	padding: 0 0 2% 0;
 	background-image: url("../img/header-bg.jpg");
@@ -219,4 +228,55 @@ p {
 	left: -webkit-calc(50% - 10px);
 	bottom: -10px;
 	z-index: 1;
+}
+
+
+.s-carousel .fab {
+	font-size: 28px;
+}
+
+.s-carousel .carousel-heading {
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+
+.carousel-description {
+	padding: 0 10%;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.s-carousel .slider-slide,
+.s-carousel .slider-bullets {
+	cursor: pointer;
+}
+
+.s-carousel .slider-bullets {
+	display: inline-flex;
+	position: relative;
+}
+
+.s-carousel .slider-bullet.glide__bullet {
+	position: relative;
+	cursor: pointer;
+	top: 20px;
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	line-height: 0;
+	padding: 0;
+	transition: all 350ms ease;
+	border: 2px solid transparent;
+	background-color: #848789;
+	border-radius: 50%;
+}
+
+.s-carousel .slider-bullet.glide__bullet:focus {
+	outline: none;
+}
+
+.s-carousel .slider-bullet.glide__bullet.glide__bullet--active {
+	background-color: transparent;
+	border: 1px solid #848789;
 }

@@ -1,6 +1,15 @@
 (function() {
-  // Carousel
+  // glide.js slider
+  /**
+   * @see https://glidejs.com/docs
+   */
 
-  let carousel = new Glide(".glide");
+  const carousel = new Glide(".glide", {
+    autoplay: 3000,
+    rewindDuration: 1000,
+    animationDuration: 1200,
+    hoverPause: true,
+    perView: 1
+  });
   carousel.mount();
-})(window);
+})();
