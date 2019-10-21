@@ -57,6 +57,18 @@ p {
 	background-color: #282F35;
 }
 
+.bg-twitter {
+	background-color: #56c7ee;
+}
+
+.bg-facebook {
+	background-color: #1877f2;
+}
+
+.bg-pinterest {
+	background-color: #bd081c;
+}
+
 .color-twitter {
 	color: #56c7ee;
 }
@@ -317,7 +329,7 @@ p {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	transition: all 0.5s ease;
+	transition: all 500ms ease;
 }
 
 .s-shop .shop-item:hover::before {
@@ -440,8 +452,7 @@ p {
 	position: relative;
 }
 
-.contact-form .form-btn,
-.contact-form #email {
+.contact-form input {
 	display: inline-block;
 	position: relative;
 	margin-left: 5px;
@@ -455,7 +466,7 @@ p {
 	width: 290px;
 }
 
-.contact-form input[type="email"]::placeholder {
+.contact-form input::placeholder {
 	font-size: 18px;
 	font-style: italic;
 	color: rgba(146, 146, 146, 0.5);
@@ -470,4 +481,57 @@ p {
 
 .contact-form .form-btn:hover {
 	background-color: #458b70;
+}
+
+.footer {
+	padding: 4% 8%;
+	display: flex;
+	align-self: auto;
+}
+
+.footer h3 {
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #848789;
+	transition: color 350ms ease;
+}
+
+.footer .address {
+	display: inline-block;
+}
+
+.footer a:hover {
+	color: #111;
+}
+
+.footer .social-icons {
+	margin: auto;
+	padding: 0;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	flex-basis: 33.33333333333333333333%;
+}
+
+.footer .social-icons li {
+	border-radius: 50%;
+	margin: 0 6px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+}
+
+.footer .social-icons li a {
+	color: #fff;
+}
+
+.footer .social-icons li:hover a {
+	color: #282F35;
 }
