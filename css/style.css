@@ -489,7 +489,11 @@ p {
 	align-self: auto;
 }
 
-.footer h3 {
+.footer .region {
+	font-weight: bold;
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
 	margin: 0;
 	letter-spacing: 1px;
 }
